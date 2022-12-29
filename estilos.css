@@ -1,0 +1,183 @@
+body {
+  font-family: Encode Sans, serif;
+  background-color: #f5f6f7;
+}
+.cabecalho-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.logo-globo-com {
+  width: 140px;
+  height: 40px;
+}
+.cabecalho-links {
+  height: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.link-g1 {
+  color: #dd7e79;
+}
+.link-o-globo {
+  color: #446aac;
+}
+.link-valor {
+  color: #137070;
+}
+.link-ge {
+  color: #05a844;
+}
+.link-cartola {
+  color: #f1b396;
+}
+.link-globoplay {
+  color: #fb1541;
+}
+.link-dropz {
+  color: #ffbddd;
+}
+.link-gshow {
+  color: #eb7b05;
+}
+.link-quem {
+  color: #4a4b4b;
+}
+.link-receitas {
+  color: #b43e95;
+}
+.fundo-da-pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corpo-da-pagina {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+}
+a {
+  text-decoration: none;
+}
+.conteudo-esquerdo {
+  display: flex;
+  flex-direction: column;
+}
+.titulo-principal {
+  width: 580px;
+}
+.materia-secundaria {
+  width: 510px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+p {
+  font-size: 18px;
+  color: #303134;
+}
+.reportagens-lado-esquerdo {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reportagem {
+  width: 200px;
+  margin-bottom: 50px;
+}
+.rep {
+  border-radius: 12px;
+  width: 193px;
+  height: 110px;
+}
+.Sub-titulo-reportagem {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(236, 25, 25);
+  font-size: 14px;
+}
+h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  width: 175px;
+  margin-bottom: 15px;
+}
+.texto-reportagens {
+  font-size: 14px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.borda-separadora {
+  width: 1px;
+  background-color: #ebedef;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.reportagem-lado-direito {
+  margin-bottom: 50px;
+}
+.img-rep-lado-direito {
+  border-radius: 12px;
+  width: 240px;
+  height: 128px;
+}
+.Sub-titulo-reportagem-lado-direito-coluna-1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(88, 207, 88);
+  font-size: 14px;
+}
+.titulo-rep-lado-direito {
+  width: 230px;
+}
+.Sub-titulo-reportagem-lado-direito-coluna-2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(189, 189, 26);
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .corpo-da-pagina {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  h1 {
+    font-size: 32px;
+    width: 50%;
+    margin-left: 180px;
+  }
+  p {
+    font-size: 18px;
+    width: 50%;
+  }
+  .materia-secundaria {
+    margin-left: 290px;
+  }
+
+  .conteudo-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reportagens-lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
